@@ -1,0 +1,10 @@
+torch
+torchvision
+pandas
+scikit-learn
+lightgbm
+rasterio
+matplotlib
+pytest
+pyarrow
+pyyaml

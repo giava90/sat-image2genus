@@ -1,0 +1,14 @@
+# Growing stock per genus, in cubic metres per hectare.
+#
+# PLACEHOLDER VALUES. They are round illustrative numbers, not taken from any
+# inventory. Replace them with values from your own sources, set
+# placeholder to false, and rerun only the volume step.
+
+placeholder: true
+unit: m3_per_ha
+
+growing_stock:
+  Picea: 400     # spruce
+  Pinus: 300     # pine
+  Fagus: 350     # beech
+  Quercus: 300   # oak

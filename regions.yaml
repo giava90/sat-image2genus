@@ -1,0 +1,13 @@
+# Synthetic-region genus shares for the run 2 volume step (stage 1).
+#
+# PLACEHOLDER SCENARIOS. Round illustrative mixes, not taken from any
+# inventory. Order of each list: spruce (Picea), pine (Pinus), beech (Fagus),
+# oak (Quercus). Shares must sum to 1. Scenarios S1 (dataset shares) and S2
+# (equal shares) from run 1 are added by the script itself.
+
+placeholder: true
+
+scenarios:
+  A: [0.60, 0.25, 0.10, 0.05]   # spruce-dominated
+  B: [0.15, 0.70, 0.10, 0.05]   # pine-dominated
+  C: [0.40, 0.35, 0.23, 0.02]   # conifer mix with rare oak

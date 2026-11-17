@@ -1,0 +1,111 @@
+{
+  "n_rep": 1000,
+  "n_stands": 5000,
+  "placeholder_volumes": true,
+  "regions_placeholder": true,
+  "growing_stock": {
+    "Picea": 400.0,
+    "Pinus": 300.0,
+    "Fagus": 350.0,
+    "Quercus": 300.0
+  },
+  "scenarios": {
+    "common": {
+      "S1 dataset shares": {
+        "Picea": 0.2492,
+        "Pinus": 0.3237,
+        "Fagus": 0.2783,
+        "Quercus": 0.1488
+      },
+      "S2 equal shares": {
+        "Picea": 0.25,
+        "Pinus": 0.25,
+        "Fagus": 0.25,
+        "Quercus": 0.25
+      },
+      "A": {
+        "Picea": 0.6,
+        "Pinus": 0.25,
+        "Fagus": 0.1,
+        "Quercus": 0.05
+      },
+      "B": {
+        "Picea": 0.15,
+        "Pinus": 0.7,
+        "Fagus": 0.1,
+        "Quercus": 0.05
+      },
+      "C": {
+        "Picea": 0.4,
+        "Pinus": 0.35,
+        "Fagus": 0.23,
+        "Quercus": 0.02
+      }
+    },
+    "full": {
+      "S1 dataset shares": {
+        "Picea": 0.2091,
+        "Pinus": 0.2716,
+        "Fagus": 0.2335,
+        "Quercus": 0.2857
+      },
+      "S2 equal shares": {
+        "Picea": 0.25,
+        "Pinus": 0.25,
+        "Fagus": 0.25,
+        "Quercus": 0.25
+      },
+      "A": {
+        "Picea": 0.6,
+        "Pinus": 0.25,
+        "Fagus": 0.1,
+        "Quercus": 0.05
+      },
+      "B": {
+        "Picea": 0.15,
+        "Pinus": 0.7,
+        "Fagus": 0.1,
+        "Quercus": 0.05
+      },
+      "C": {
+        "Picea": 0.4,
+        "Pinus": 0.35,
+        "Fagus": 0.23,
+        "Quercus": 0.02
+      }
+    }
+  },
+  "train_prior": {
+    "m1_lgbm": {
+      "Picea": 0.2092,
+      "Pinus": 0.271,
+      "Fagus": 0.2336,
+      "Quercus": 0.2862
+    },
+    "m2_cnn": {
+      "Picea": 0.2092,
+      "Pinus": 0.271,
+      "Fagus": 0.2336,
+      "Quercus": 0.2862
+    },
+    "m3_resnet18": {
+      "Picea": 0.2545,
+      "Pinus": 0.2545,
+      "Fagus": 0.2545,
+      "Quercus": 0.2366
+    }
+  },
+  "oak_shares": [
+    0.01,
+    0.02,
+    0.03,
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "seconds": 1206.6
+}

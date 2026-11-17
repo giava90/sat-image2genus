@@ -1,0 +1,41 @@
+{
+  "block_m": 2000.0,
+  "buffer_m": 200.0,
+  "n_blocks": 2281,
+  "splits": {
+    "seed0": {
+      "counts": {
+        "train": 18639,
+        "test": 5536,
+        "val": 2791,
+        "dropped": 690
+      },
+      "test_per_genus": {
+        "Picea": 1325,
+        "Pinus": 1351,
+        "Fagus": 1255,
+        "Quercus": 1605
+      },
+      "test_common_n": 4632,
+      "test_blocks": 463,
+      "train_share_of_all": 0.6739586346543246
+    },
+    "seed1": {
+      "counts": {
+        "train": 18642,
+        "test": 5547,
+        "val": 2785,
+        "dropped": 682
+      },
+      "test_per_genus": {
+        "Picea": 929,
+        "Pinus": 1867,
+        "Fagus": 1189,
+        "Quercus": 1562
+      },
+      "test_common_n": 4652,
+      "test_blocks": 422,
+      "train_share_of_all": 0.6740671102111657
+    }
+  }
+}

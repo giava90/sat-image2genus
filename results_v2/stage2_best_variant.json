@@ -1,0 +1,17 @@
+{
+  "best_lgbm_variant_by_val_accuracy": "lgbm_centre_ring",
+  "val_accuracy": {
+    "lgbm_centre_ring": 0.8720417168070598,
+    "cnn_masked_centre": 0.8596068993180906,
+    "lgbm_summary200_repro": 0.7962294424388288,
+    "cnn_centre6": 0.8736462093862816,
+    "lgbm_raw60": 0.8604091456077015,
+    "lgbm_summary60": 0.8632170076213398,
+    "lgbm_raw200": 0.8491776975531489
+  },
+  "run1_val_accuracy": {
+    "m1_lgbm": 0.7962294424388288,
+    "m2_cnn": 0.8981147212194144,
+    "m3_resnet18": 0.9104834849210148
+  }
+}

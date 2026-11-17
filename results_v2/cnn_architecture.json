@@ -1,0 +1,75 @@
+{
+  "shapes": [
+    [
+      12,
+      20,
+      20
+    ],
+    [
+      32,
+      20,
+      20
+    ],
+    [
+      32,
+      10,
+      10
+    ],
+    [
+      64,
+      10,
+      10
+    ],
+    [
+      64,
+      5,
+      5
+    ],
+    [
+      128,
+      5,
+      5
+    ],
+    [
+      128,
+      1,
+      1
+    ],
+    [
+      4
+    ]
+  ],
+  "ops": [
+    {
+      "op": "2 \u00d7 (3\u00d73 convolution, batch norm, ReLU)",
+      "params": 12800
+    },
+    {
+      "op": "max pool 2\u00d72",
+      "params": 0
+    },
+    {
+      "op": "2 \u00d7 (3\u00d73 convolution, batch norm, ReLU)",
+      "params": 55552
+    },
+    {
+      "op": "max pool 2\u00d72",
+      "params": 0
+    },
+    {
+      "op": "2 \u00d7 (3\u00d73 convolution, batch norm, ReLU)",
+      "params": 221696
+    },
+    {
+      "op": "global average pool",
+      "params": 0
+    },
+    {
+      "op": "dropout 0.3, linear layer",
+      "params": 516
+    }
+  ],
+  "total_params": 290564,
+  "conv_layers": 6,
+  "linear_layers": 1
+}

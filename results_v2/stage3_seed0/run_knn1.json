@@ -1,0 +1,6 @@
+{
+  "model": "knn1",
+  "split": "seed0",
+  "k": 1,
+  "n_train": 18639
+}

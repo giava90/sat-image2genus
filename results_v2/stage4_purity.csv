@@ -1,0 +1,31 @@
+eval_set,model,grouping,level,n,accuracy,wilson_lo,wilson_hi
+common,m1_lgbm,purity,< 0.6,232,0.59051724,0.52626593,0.65181970
+common,m1_lgbm,purity,0.6 to < 0.9,576,0.61458333,0.57420216,0.65344622
+common,m1_lgbm,purity,>= 0.9,1514,0.88441215,0.86732463,0.89955381
+common,m1_lgbm,json_top_agrees,agrees,2236,0.79785331,0.78070270,0.81398221
+common,m1_lgbm,json_top_agrees,disagrees,86,0.53488372,0.43024116,0.63654305
+common,m1_lgbm,all,all,2322,0.78811370,,
+common,m2_cnn,purity,< 0.6,232,0.71982759,0.65881950,0.77367417
+common,m2_cnn,purity,0.6 to < 0.9,576,0.85243056,0.82113251,0.87905871
+common,m2_cnn,purity,>= 0.9,1514,0.94451783,0.93182134,0.95496421
+common,m2_cnn,json_top_agrees,agrees,2236,0.90921288,0.89659185,0.92043022
+common,m2_cnn,json_top_agrees,disagrees,86,0.63953488,0.53410489,0.73303194
+common,m2_cnn,all,all,2322,0.89922481,,
+common,m3_resnet18,purity,< 0.6,232,0.76724138,0.70877866,0.81699796
+common,m3_resnet18,purity,0.6 to < 0.9,576,0.88888889,0.86060278,0.91202202
+common,m3_resnet18,purity,>= 0.9,1514,0.95442536,0.94271997,0.96383049
+common,m3_resnet18,json_top_agrees,agrees,2236,0.92665474,0.91510147,0.93674448
+common,m3_resnet18,json_top_agrees,disagrees,86,0.73255814,0.63054760,0.81468044
+common,m3_resnet18,all,all,2322,0.91946598,,
+full,m1_lgbm,purity,< 0.6,335,0.64179104,0.58910502,0.69126197
+full,m1_lgbm,purity,0.6 to < 0.9,683,0.63396779,0.59718428,0.66925269
+full,m1_lgbm,purity,>= 0.9,1720,0.87965116,0.86342209,0.89418812
+full,m1_lgbm,json_top_agrees,agrees,2632,0.80091185,0.78522254,0.81572404
+full,m1_lgbm,json_top_agrees,disagrees,106,0.50000000,0.40649332,0.59350668
+full,m1_lgbm,all,all,2738,0.78926224,,
+full,m2_cnn,purity,< 0.6,335,0.75223881,0.70332255,0.79543557
+full,m2_cnn,purity,0.6 to < 0.9,683,0.84626647,0.81728506,0.87137445
+full,m2_cnn,purity,>= 0.9,1720,0.94186047,0.92978518,0.95196637
+full,m2_cnn,json_top_agrees,agrees,2632,0.90501520,0.89321623,0.91563359
+full,m2_cnn,json_top_agrees,disagrees,106,0.64150943,0.54674023,0.72638034
+full,m2_cnn,all,all,2738,0.89481373,,

@@ -1,0 +1,6 @@
+{
+  "model": "knn5",
+  "split": "orig",
+  "k": 5,
+  "n_train": 22425
+}

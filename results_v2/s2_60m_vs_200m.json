@@ -1,0 +1,16 @@
+{
+  "n_sampled": 1000,
+  "shape_60m": {
+    "(12, 6, 6)": 1000
+  },
+  "shape_200m": {
+    "(12, 20, 20)": 1000
+  },
+  "pixel_offset_of_exact_match(row,col)": {
+    "(7, 7)": 1000
+  },
+  "patches_with_more_than_one_matching_offset": 0,
+  "georef_offset_of_60m_top_left_in_200m_pixels(row,col)": {
+    "(7.0, 7.0)": 1000
+  }
+}

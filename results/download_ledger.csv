@@ -1,0 +1,14 @@
+utc,file,bytes,note
+2026-11-16T16:52:00,record_6780578.json,23006,metadata
+2026-11-16T16:53:00,labels.zip,581109,full
+2026-11-16T16:53:00,train_filenames.lst,1661374,full
+2026-11-16T16:53:00,test_filenames.lst,184868,full
+2026-11-16T16:53:00,220629_doc_TreeSatAI_benchmark_archive.pdf,2068807,full
+2026-11-16T16:53:42,s2.zip,510023289,full
+2026-11-16T16:56:03,aerial_60m_picea_abies.zip,1777813710,full
+2026-11-16T16:58:24,aerial_60m_fagus_sylvatica.zip,1957206789,full
+2026-11-16T17:00:09,aerial_60m_pinus_sylvestris.zip,2016495797,full
+2026-11-16T17:01:05,aerial_60m_quercus_robur.zip,1069597888,full
+2026-11-16T17:01:21,aerial_60m_pinus_nigra.zip,124526735,full
+2026-11-16T17:01:34,aerial_60m_pinus_strobus.zip,156313810,full
+2026-11-16T17:03:30,resnet18-f37072fd.pth (download.pytorch.org),46830571,torchvision weights

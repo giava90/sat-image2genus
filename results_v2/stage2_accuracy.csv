@@ -1,0 +1,20 @@
+model,ref,n,n_blocks,accuracy,patch_ci_lo,patch_ci_hi,block_ci_lo,block_ci_hi,eval_set,description,val_accuracy
+M1,run1:m1_lgbm,2322,1103,0.78811370,0.77045650,0.80447890,0.77024041,0.80555733,common,run 1 model,
+M2,run1:m2_cnn,2322,1103,0.89922481,0.88673557,0.91128338,0.88677528,0.91192032,common,run 1 model,
+M3,run1:m3_resnet18,2322,1103,0.91946598,0.90825797,0.93023256,0.90793612,0.93137070,common,run 1 model,
+cnn_centre6,stage2:cnn_centre6,2322,1103,0.88156761,0.86821705,0.89448751,0.86663843,0.89585446,common,"e. CNN, centre 6x6 only",0.87364621
+cnn_masked_centre,stage2:cnn_masked_centre,2322,1103,0.86864772,0.85529716,0.88199828,0.85372927,0.88313565,common,"f. CNN, 200 m with centre 6x6 masked",0.85960690
+lgbm_centre_ring,stage2:lgbm_centre_ring,2322,1103,0.86864772,0.85400517,0.88285960,0.85481724,0.88245782,common,"b. LightGBM, centre 6x6 + ring summary stats",0.87204172
+lgbm_raw200,stage2:lgbm_raw200,2322,1103,0.84366925,0.82859604,0.85917313,0.82839837,0.85877926,common,"d. LightGBM, raw pixels of 200 m patch",0.84917770
+lgbm_raw60,stage2:lgbm_raw60,2322,1103,0.84065461,0.82643196,0.85615848,0.82576963,0.85633400,common,"c. LightGBM, raw pixels of 60 m patch",0.86040915
+lgbm_summary200_repro,stage2:lgbm_summary200_repro,2322,1103,0.78811370,0.77045650,0.80447890,0.77024041,0.80555733,common,"LightGBM run 1 features, retrained (reproduction check)",0.79622944
+lgbm_summary60,stage2:lgbm_summary60,2322,1103,0.85529716,0.84022394,0.86950904,0.84123481,0.86958568,common,"a. LightGBM, summary stats of 60 m patch",0.86321701
+M1,run1:m1_lgbm,2738,1220,0.78926224,0.77464390,0.80314098,0.77224440,0.80581194,full,run 1 model,
+M2,run1:m2_cnn,2738,1220,0.89481373,0.88312637,0.90577064,0.88265562,0.90683851,full,run 1 model,
+cnn_centre6,stage2:cnn_centre6,2738,1220,0.87801315,0.86523009,0.89079620,0.86426050,0.88952906,full,"e. CNN, centre 6x6 only",0.87364621
+cnn_masked_centre,stage2:cnn_masked_centre,2738,1220,0.86449963,0.85135135,0.87874361,0.85029049,0.87745518,full,"f. CNN, 200 m with centre 6x6 masked",0.85960690
+lgbm_centre_ring,stage2:lgbm_centre_ring,2738,1220,0.86413440,0.85208181,0.87691746,0.85096456,0.87719413,full,"b. LightGBM, centre 6x6 + ring summary stats",0.87204172
+lgbm_raw200,stage2:lgbm_raw200,2738,1220,0.83637692,0.82249817,0.85098612,0.82160777,0.85043488,full,"d. LightGBM, raw pixels of 200 m patch",0.84917770
+lgbm_raw60,stage2:lgbm_raw60,2738,1220,0.83272462,0.81775018,0.84660336,0.81757414,0.84651657,full,"c. LightGBM, raw pixels of 60 m patch",0.86040915
+lgbm_summary200_repro,stage2:lgbm_summary200_repro,2738,1220,0.78926224,0.77464390,0.80314098,0.77224440,0.80581194,full,"LightGBM run 1 features, retrained (reproduction check)",0.79622944
+lgbm_summary60,stage2:lgbm_summary60,2738,1220,0.84879474,0.83454164,0.86230825,0.83478134,0.86220712,full,"a. LightGBM, summary stats of 60 m patch",0.86321701

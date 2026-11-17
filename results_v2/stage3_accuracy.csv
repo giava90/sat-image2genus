@@ -1,0 +1,30 @@
+model,ref,n,n_blocks,accuracy,patch_ci_lo,patch_ci_hi,block_ci_lo,block_ci_hi,split,eval_set,description
+M1,run1:m1_lgbm,2322,1103,0.78811370,0.77045650,0.80447890,0.77024041,0.80555733,original,common,"LightGBM, run 1 features (200 m summary stats)"
+M2,run1:m2_cnn,2322,1103,0.89922481,0.88673557,0.91128338,0.88677528,0.91192032,original,common,"small CNN, 200 m patch"
+best_lgbm,stage2:lgbm_centre_ring,2322,1103,0.86864772,0.85400517,0.88285960,0.85481724,0.88245782,original,common,best stage 2 LightGBM variant (lgbm_centre_ring)
+knn1,stage3_orig:knn1,2322,1103,0.70284238,0.68474376,0.72136090,0.68353232,0.72376836,original,common,1-NN on patch centre
+knn5,stage3_orig:knn5,2322,1103,0.69121447,0.67226529,0.70973299,0.66913294,0.71361800,original,common,5-NN on patch centre
+lgbm_xy,stage3_orig:lgbm_xy,2322,1103,0.68475452,0.66537468,0.70371447,0.66279007,0.70913632,original,common,"LightGBM on (x, y)"
+M3,run1:m3_resnet18,2322,1103,0.91946598,0.90825797,0.93023256,0.90793612,0.93137070,original,common,"ResNet-18, aerial"
+M1,run1:m1_lgbm,2738,1220,0.78926224,0.77464390,0.80314098,0.77224440,0.80581194,original,full,"LightGBM, run 1 features (200 m summary stats)"
+M2,run1:m2_cnn,2738,1220,0.89481373,0.88312637,0.90577064,0.88265562,0.90683851,original,full,"small CNN, 200 m patch"
+best_lgbm,stage2:lgbm_centre_ring,2738,1220,0.86413440,0.85208181,0.87691746,0.85096456,0.87719413,original,full,best stage 2 LightGBM variant (lgbm_centre_ring)
+knn1,stage3_orig:knn1,2738,1220,0.71365961,0.69612856,0.73010409,0.69463447,0.73249934,original,full,1-NN on patch centre
+knn5,stage3_orig:knn5,2738,1220,0.68334551,0.66471877,0.69942476,0.66505742,0.70337304,original,full,5-NN on patch centre
+lgbm_xy,stage3_orig:lgbm_xy,2738,1220,0.67348430,0.65558802,0.69065924,0.65519821,0.69394427,original,full,"LightGBM on (x, y)"
+M1,stage3_seed0:lgbm_summary200,4632,451,0.76165803,0.74956282,0.77440091,0.74242145,0.78018308,blocked seed0,common,"LightGBM, run 1 features (200 m summary stats)"
+best_lgbm,stage3_seed0:lgbm_centre_ring,4632,451,0.85189983,0.84153174,0.86269430,0.83782752,0.86513846,blocked seed0,common,best stage 2 LightGBM variant (lgbm_centre_ring)
+M2,stage3_seed0:cnn_full,4632,451,0.88795337,0.87931239,0.89659434,0.87462330,0.89934848,blocked seed0,common,"small CNN, 200 m patch"
+knn1,stage3_seed0:knn1,4632,451,0.56217617,0.54792746,0.57642487,0.52762239,0.59781830,blocked seed0,common,1-NN on patch centre
+knn5,stage3_seed0:knn5,4632,451,0.56368739,0.54987047,0.57836788,0.52724651,0.60044414,blocked seed0,common,5-NN on patch centre
+lgbm_xy,stage3_seed0:lgbm_xy,4632,451,0.59866149,0.58505505,0.61247841,0.56360600,0.63571470,blocked seed0,common,"LightGBM on (x, y)"
+M1,stage3_seed0:lgbm_summary200,5536,463,0.76029624,0.74927746,0.77113891,0.74329289,0.77821151,blocked seed0,full,"LightGBM, run 1 features (200 m summary stats)"
+best_lgbm,stage3_seed0:lgbm_centre_ring,5536,463,0.84898844,0.83995665,0.85856214,0.83580472,0.86256271,blocked seed0,full,best stage 2 LightGBM variant (lgbm_centre_ring)
+M2,stage3_seed0:cnn_full,5536,463,0.88565751,0.87734827,0.89396676,0.87443465,0.89701441,blocked seed0,full,"small CNN, 200 m patch"
+knn1,stage3_seed0:knn1,5536,463,0.53883671,0.52564577,0.55166185,0.51067335,0.57237710,blocked seed0,full,1-NN on patch centre
+knn5,stage3_seed0:knn5,5536,463,0.54714595,0.53521947,0.55960983,0.51521573,0.58004774,blocked seed0,full,5-NN on patch centre
+lgbm_xy,stage3_seed0:lgbm_xy,5536,463,0.57369942,0.56159682,0.58707551,0.54296297,0.60449549,blocked seed0,full,"LightGBM on (x, y)"
+knn1,stage3_seed1:knn1,4652,413,0.57717111,0.56340821,0.59092863,0.53802843,0.61967359,blocked seed1,common,1-NN on patch centre
+knn5,stage3_seed1:knn5,4652,413,0.58404987,0.57050731,0.59802236,0.53987596,0.62903780,blocked seed1,common,5-NN on patch centre
+knn1,stage3_seed1:knn1,5547,422,0.54461871,0.53091311,0.55670182,0.50902559,0.58151450,blocked seed1,full,1-NN on patch centre
+knn5,stage3_seed1:knn5,5547,422,0.56102398,0.54786371,0.57346313,0.52558888,0.60011585,blocked seed1,full,5-NN on patch centre

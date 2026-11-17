@@ -1,0 +1,39 @@
+{
+  "labels_all_patches": 50381,
+  "labels_all_filename_vs_json_top_disagree": 3418,
+  "labels_all_disagree_share": 0.0678430360651833,
+  "labels_target_patches": 27656,
+  "labels_target_disagree_share": 0.03897888342493491,
+  "target_genus_counts": {
+    "Picea": 5783,
+    "Pinus": 7512,
+    "Fagus": 6459,
+    "Quercus": 7902
+  },
+  "split_counts": {
+    "train": 22425,
+    "test": 2738,
+    "val": 2493
+  },
+  "common_counts": {
+    "train": 18796,
+    "test": 2322,
+    "val": 2089
+  },
+  "common_test_per_genus": {
+    "Picea": 571,
+    "Pinus": 759,
+    "Fagus": 639,
+    "Quercus": 353
+  },
+  "full_test_per_genus": {
+    "Picea": 571,
+    "Pinus": 759,
+    "Fagus": 639,
+    "Quercus": 769
+  },
+  "s2_200m_patches_not_20x20": 48,
+  "download_total_bytes": 7663327753,
+  "download_total_gb": 7.663327753,
+  "total_training_minutes_all_models": 71.82666666666665
+}

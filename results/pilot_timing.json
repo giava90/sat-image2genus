@@ -1,0 +1,34 @@
+{
+  "device": "cpu",
+  "threads": 8,
+  "m2": {
+    "params": 290564,
+    "train_img_per_s": 1705.3642217182546
+  },
+  "m3": {
+    "112": {
+      "full_train_img_per_s": 64.07130356483812,
+      "layer4_fc_train_img_per_s": 149.33772460286642,
+      "layer34_fc_train_img_per_s": 114.57720438882853,
+      "infer_img_per_s": 208.54004426617817
+    },
+    "128": {
+      "full_train_img_per_s": 50.53627807585192,
+      "layer4_fc_train_img_per_s": 122.13907432493689,
+      "layer34_fc_train_img_per_s": 94.17343111131458,
+      "infer_img_per_s": 158.7152088685881
+    },
+    "160": {
+      "full_train_img_per_s": 31.692189066635418,
+      "layer4_fc_train_img_per_s": 78.2761220616706,
+      "layer34_fc_train_img_per_s": 59.535455456494454,
+      "infer_img_per_s": 99.79372466877525
+    },
+    "224": {
+      "full_train_img_per_s": 16.159011603635683,
+      "layer4_fc_train_img_per_s": 39.00812505015693,
+      "layer34_fc_train_img_per_s": 30.49442074941671,
+      "infer_img_per_s": 47.18298166138619
+    }
+  }
+}
